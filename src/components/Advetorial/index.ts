@@ -1,0 +1,1 @@
+export { Advetorial } from './Advetorial';
