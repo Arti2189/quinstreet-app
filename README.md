@@ -10,6 +10,10 @@ This marketing-focused application allows users to:
 - See appropriate visual feedback during submission
 - View advertorial content
 
+## Demo
+
+![App Demo](src/media/demo.gif)
+
 ## Tech Stack
 
 - **React 19** - UI library for building user interfaces
@@ -42,7 +46,8 @@ project-2/
 - Custom form inputs with error handling
 - Phone number input with automatic formatting
 - Validation for all fields with appropriate error messages
-- Form submission with timeout handling
+- Form submission with timeout handling. Since API doesn't respond, the form
+automatically changes text from submitting to submitted
 
 ### UI Components
 - Animated background color

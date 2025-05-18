@@ -13,7 +13,7 @@ export const useFormSubmit = () => {
     const timeoutPromise = new Promise<Response>((_, reject) => {
       setTimeout(() => {
         reject(new Error('Request timed out after 60 seconds'));
-      }, 60000);
+      }, 6000);
     });
 
      try {
