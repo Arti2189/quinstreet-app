@@ -1,6 +1,6 @@
 # QuinStreet Application Project
 
-This project is a React application built with TypeScript and Vite that handles form submissions and displays advertorial content for QuinStreet. It is part of a dual implementation approach, with this being the Vite version.
+This project is a React application built with TypeScript and Vite that handles form submissions, displays advertorial content for QuinStreet and shows background color transition every 5 secs.
 
 ## 📋 Project Overview
 
@@ -27,7 +27,7 @@ This marketing-focused application allows users to:
 ## Project Structure
 
 ```
-project-2/
+quinstreet-app/
 ├── src/
 │   ├── assets/         # Static assets
 │   ├── components/     # React components
@@ -65,7 +65,6 @@ automatically changes text from submitting to submitted
 ### 📱 Responsive Design
 The application is fully responsive with specific adjustments for mobile view:
 - Custom breakpoint at 767px
-- Layout changes for input rows
 - Full-width buttons on mobile
 - Font size adjustments
 - Spacing optimizations
@@ -74,7 +73,7 @@ The application is fully responsive with specific adjustments for mobile view:
 
 ### Prerequisites
 
-- Node.js 16+ installed
+- Node.js 22.7.0 installed
 - npm or yarn package manager
 
 ### Installation
@@ -121,7 +120,7 @@ The project uses Linaria for CSS-in-JS styling with zero runtime cost. Features 
 - Support for dynamic styling based on props
 - Media queries for responsive design
 
-The application features a background color transition effect that alternates between light colors.
+The application features a background color transition effect that alternates between two colors.
 
 ## Deployment
 
